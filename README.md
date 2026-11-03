@@ -1,29 +1,42 @@
-# Sniper Rounds Android downloads
+# Scopes and Shields — SOLOBOLO
 
-**[Download the latest APK](https://github.com/geoffreyvd/sniper-rounds-downloads/releases/latest/download/sniper-rounds.apk)**
+**[Download the latest Android APK](https://github.com/geoffreyvd/sniper-rounds-downloads/releases/latest/download/sniper-rounds.apk)**
 
-[Build history and release notes](https://github.com/geoffreyvd/sniper-rounds-downloads/releases)
+[Release notes and previous builds](https://github.com/geoffreyvd/sniper-rounds-downloads/releases)
 
-## Install on your phone
+## Install
 
-1. Open the download link on your Android phone.
-2. Download `sniper-rounds.apk` and open the downloaded file.
-3. If Android asks, allow your browser to install unknown apps, then install.
-4. Open **Sniper Rounds**.
+1. Open the download link on an ARM64 Android phone running Android 8 or newer.
+2. Download `sniper-rounds.apk` and open it.
+3. If prompted, allow your browser to install apps, then install the game.
+4. Open **Scopes and Shields** and review the terms on first launch.
 
-These test builds support ARM64 phones running Android 7.0 or newer, including Pixel 8a.
-They are development builds and may contain bugs. They are not a Google Play release.
+The game is free, without ads or in-app purchases. Offline bot matches and online
+duels through Epic Online Services are available. Both players should use matching
+game versions for online play.
 
-## Updates
+## New app identity from 1.0.44
 
-Bookmark the download link or share it with friends. It always points to the newest
-published build. Download and install again to update; this link does not provide
-automatic updates. The same package name and signing certificate allow installation
-over an older build. If Android reports a conflicting package, check which signing
-key was used before uninstalling: uninstalling removes local app data.
+The production app uses `nl.solobolo.scopesandshields`, signed by SOLOBOLO. It
+installs separately from the old `com.example.sniperrounds` development app. Local
+progress and settings do not transfer between the two packages. Future builds of
+the new package retain its production signing certificate for updates.
 
-Both players should use matching game versions for online play. The game supports
-offline play as well as online matches through Epic Online Services.
+The latest-download URL always points to the newest published APK. Download and
+install again for future updates. Each release includes `SHA256SUMS.txt` for
+verification. A GitHub download is not a Google Play listing or approval.
 
-Each release includes `SHA256SUMS.txt` for download verification.
-This public repository contains downloadable builds and instructions only.
+## Support and legal information
+
+- [Privacy policy and deletion requests](https://geoffreyvd.github.io/sniper-rounds-downloads/privacy.html)
+- [Terms](https://geoffreyvd.github.io/sniper-rounds-downloads/terms.html)
+- [Third-party licences and audio credits](https://geoffreyvd.github.io/sniper-rounds-downloads/licenses.html)
+- Support: info.solobolo.dev@gmail.com
+
+The game links to these pages under Settings. Required third-party notices are
+also available offline in the installed app. Legal pages can be maintained in
+this repository's `docs/` directory without rebuilding the game; material changes
+to accepted terms or data practices may require an app update.
+
+This public repository contains distribution files, legal documentation and
+installation instructions. Game source and signing credentials remain private.
